@@ -20,6 +20,7 @@ function Effect() {
 
   return (
     <>
+    <h1>Use Effect</h1>
       <ul>
         {repositories.map(repo => <li key={repo.id}>{repo.name}</li>)}
       </ul>
